@@ -1,0 +1,11 @@
+plantingdepth	0
+firstB	1000
+delayB	0
+maxB	0
+nC	2
+firstSB	1000
+delaySB	1.5
+delayRC	3
+nz	0.1
+simtime	100
+dt	100
