@@ -4,11 +4,12 @@ WD = pwd;
 
 addpath(genpath(WD));
 
+RS=[pwd,'/in/_ROOT_STRUCTURES/flat_2_5m_xy'];
 RS=[pwd,'/in/RootSys'];
 RSout=[RS,'_simple'];
 RSout2=[RS,'_verysimple'];
 
-maxl=1; % max segment length
+maxl=0.5; % max segment length
 simplify_rootsys_maxl(RS,RSout,maxl);
 
 figure
